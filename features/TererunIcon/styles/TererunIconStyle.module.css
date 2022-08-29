@@ -1,8 +1,17 @@
-.tererun-no-eyes-icon {
-    background-color: aqua;
-    height: 128px;
+.tererunIconWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.tererun-animated-eyes {
-    background-color: blue;
+.tererunIconWrapper img {
+    height: 240px;
+}
+
+.tererunNoEyesIcon {
+    position: absolute;
+}
+
+.tererunAnimatedEyes {
+    position: relative;
 }
